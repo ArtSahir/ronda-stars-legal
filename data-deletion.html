@@ -18,7 +18,7 @@
     <h1>Data Deletion Request</h1>
     <div class="meta">
       <span><b>Developer:</b> CONPLY</span>
-      <span><b>Last updated:</b> September 4, 2026</span>
+      <span><b>Last updated:</b> October 30, 2026</span>
       <span><b>Response time:</b> within 30 days</span>
     </div>
   </div>
@@ -62,6 +62,7 @@
       <li>Your sign-in record, your profile and all the data listed in section 3 are erased <strong>immediately and permanently</strong> from our servers, and the app signs you out. You can keep playing as a guest or create a new account later.</li>
     </ol>
     <div class="note"><b>This cannot be undone.</b> Coins, gems, cosmetics, friends, ranking and all progress are lost permanently.</div>
+    <p>If your account is banned, the app shows the ban screen instead of Settings. That screen has a <strong>Request account and data deletion</strong> link to this page: use the e-mail request below and we will delete the account the same way.</p>
   </section>
 
   <section id="email">
@@ -85,7 +86,8 @@
         <tr><td><strong>Economy and items</strong></td><td>Coins, gems, owned and equipped avatars, frames, tables and card decks, received gifts.</td></tr>
         <tr><td><strong>Progress and competitions</strong></td><td>Statistics, weekly ranking points and last rank, season pass progress, elite challenge progress, missions, achievements and claimed rewards.</td></tr>
         <tr><td><strong>Social</strong></td><td>Friends list, sent and received friend requests, match invitations, blocked players, online presence.</td></tr>
-        <tr><td><strong>Activity</strong></td><td>Gift history (sent and received), matchmaking records, reports you submitted or that were submitted about you.</td></tr>
+        <tr><td><strong>Activity</strong></td><td>Your match history, gift history (sent and received), stickers you sent and their gem cost, matchmaking records, reports you submitted or that were submitted about you.</td></tr>
+        <tr><td><strong>Chat</strong></td><td>Your Ronda Cafe chat messages still on our servers, and any chat mute (with its reason) on your account. In-match chat is never stored.</td></tr>
         <tr><td><strong>Device</strong></td><td>Push notification token.</td></tr>
         <tr><td><strong>Sign-in</strong></td><td>The authentication record holding your Google e-mail is deleted at the same moment.</td></tr>
       </table>
@@ -98,13 +100,15 @@
     <div class="tablewrap">
       <table>
         <tr><th>Data</th><th>Why it is kept</th><th>For how long</th></tr>
-        <tr><td>Crash reports and usage analytics</td><td>Held by Google Firebase in aggregated form; not linked to your account and cannot be traced back to you by us</td><td>Per Firebase’s retention: crash data 90 days, analytics up to 14 months</td></tr>
-        <tr><td>Advertising data</td><td>Processed by Google AdMob under its own policy using your device’s Advertising ID, not your account</td><td>See <a href="privacy-policy.html#ads">Advertising in the Privacy Policy</a>; you can reset the Advertising ID on your device</td></tr>
+        <tr><td>Crash reports and usage analytics</td><td>Held by Google Firebase. Analytics are aggregated and not linked to your account. A crash report from online mode carries your player code, which no longer leads to any account once it is deleted</td><td>Per Firebase’s retention: crash data 90 days, analytics up to 14 months</td></tr>
+        <tr><td>Other players’ match history</td><td>The players you played with keep their own record of those matches, which shows your name and avatar as they were at the table</td><td>Deleted automatically 30 days after each match</td></tr>
+        <tr><td>Reported chat messages</td><td>A message that another player reported is copied into that report for review</td><td>Until the report is resolved; reports about you are deleted with your account</td></tr>
+        <tr><td>Advertising data</td><td>Processed by Google AdMob and its mediation partner Unity Ads under their own policies using your device’s Advertising ID, not your account</td><td>See <a href="privacy-policy.html#ads">Advertising in the Privacy Policy</a>; you can reset the Advertising ID on your device</td></tr>
         <tr><td>Abuse-prevention record</td><td>Only if the account was banned: a one-way hash of the sign-in e-mail and the ban reason, so the ban cannot be evaded by re-registering. It cannot be used to identify you otherwise.</td><td>Only as long as necessary for that purpose</td></tr>
         <tr><td>Data we must keep by law</td><td>Legal obligations or an ongoing dispute</td><td>For the period the law requires</td></tr>
       </table>
     </div>
-    <p>Nothing else is retained.</p>
+    <p>Nothing else linked to your account is retained.</p>
   </section>
 
   <section id="partial">
@@ -121,7 +125,7 @@
 
   <section id="guest">
     <h2>6. Guest mode</h2>
-    <p>If you play as a guest without signing in, none of your data is on our servers. Everything (name, avatar, coins, settings, offline progress) is stored only on your phone. To delete it, clear the app’s storage in your device settings or uninstall the app.</p>
+    <p>If you play as a guest without signing in, none of your game data is on our servers. Everything (name, avatar, coins, settings, offline progress) is stored only on your phone. To delete it, clear the app’s storage in your device settings or uninstall the app. Ads, usage analytics and crash reports also work in guest mode; they are tied to your device, not to an account (see section 4).</p>
   </section>
 
   <section id="faq">
@@ -135,7 +139,7 @@
     <h3>Someone else is using my account.</h3>
     <p>E-mail us immediately from your Google address; we can delete or lock the account for you.</p>
     <h3>How do I remove my data from Google (ads, analytics)?</h3>
-    <p>That data is controlled by Google under its own policies and is not linked to your Ronda STARS Online account. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Read Google’s Privacy Policy</a> and <a href="https://support.google.com/ads/answer/2662922" target="_blank" rel="noopener">learn how to reset or delete your Advertising ID</a>.</p>
+    <p>That data is controlled by Google (and, for ads, by its partner Unity Ads) under their own policies and is not linked to your Ronda STARS Online account. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Read Google’s Privacy Policy</a> and <a href="https://support.google.com/ads/answer/2662922" target="_blank" rel="noopener">learn how to reset or delete your Advertising ID</a>.</p>
   </section>
 
   <section id="contact">
